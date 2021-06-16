@@ -76,37 +76,6 @@
         "subscription": {
             "subscriptionActive": true
         }
-    },
-    "metrics": {
-        "url": "/ric/v1/metrics",
-        "namespace": "ricxapp"
-    },
-    "faults": { },
-    "measurements": [
-        {
-            "moId": "XAPP-example",
-            "measType": "X2AP_Streaming",
-            "measId": "91001",
-            "measInterval": "60",
-            "metrics": [
-                {
-                    "objectName": "UEEventStreamingCounters",
-                    "objectInstance": "SgNBAdditionRequest",
-                    "name": "ricxapp_ExampleXapp_SgNBAdditionRequest",
-                    "type": "counter",
-                    "description": "The total number of SG addition request events processed"
-                },
-                {
-                    "objectName": "UEEventStreamingCounters",
-                    "objectInstance": "SgNBAdditionRequestAcknowledge",
-                    "name": "ricxapp_ExampleXapp_SgNBAdditionRequestAcknowledge",
-                    "type": "counter",
-                    "description": "The total number of SG addition request acknowledge events"
-                }
-            ]
-        }
-    ],
-    "db" : {
-	    "waitForSdl": false
     }
+    
 }
