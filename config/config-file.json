@@ -68,14 +68,6 @@
                 "description": "rmr data port for example"
             }
         ]
-    },
-    "controls": {
-        "logger": {
-            "level": 3
-        },
-        "subscription": {
-            "subscriptionActive": true
-        }
     }
     
 }
