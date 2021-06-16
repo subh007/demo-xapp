@@ -1,6 +1,6 @@
 {
     "xapp_name": "hw-go",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "vendor": "ric-app",
     "moId": "SEP",
     "containers": [
