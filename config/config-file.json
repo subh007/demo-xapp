@@ -22,6 +22,12 @@
     "messaging": {
         "ports": [
             {
+                "name" : "http",
+                "container": "demo-xapp",
+                "port": 8080,
+                "description" : "http service"
+            },
+            {
                 "name": "rmr-data",
                 "container": "hwxapp",
                 "port": 4560,
