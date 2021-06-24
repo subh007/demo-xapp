@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "containers": [
         {
-            "name": "demo-xapp",
+            "name": "demoxapp",
             "image": {
                 "registry": "nexus3.o-ran-sc.org:10002",
                 "name": "o-ran-sc/demo-xapp",
@@ -23,13 +23,13 @@
         "ports": [
             {
                 "name" : "http",
-                "container": "demo-xapp",
+                "container": "demoxapp",
                 "port": 8080,
                 "description" : "http service"
             },
             {
                 "name": "rmr-data",
-                "container": "hwxapp",
+                "container": "demoxapp",
                 "port": 4560,
                 "rxMessages": [ 
                     "RIC_SUB_RESP", 
@@ -41,7 +41,7 @@
             },
             {
                 "name": "rmr-route",
-                "container": "hwxapp",
+                "container": "demoxapp",
                 "port": 4561,
                 "description": "rmr route port for hwxapp"
             }
