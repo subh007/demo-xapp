@@ -1,6 +1,6 @@
 {
-    "xapp_name": "demo-xapp",
-    "version": "1.0.8",
+    "xapp_name": "demoxapp",
+    "version": "1.0.0",
     "containers": [
         {
             "name": "demo-xapp",
