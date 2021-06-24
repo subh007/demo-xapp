@@ -28,7 +28,7 @@
                 "description" : "http service"
             },
             {
-                "name": "rmr-data",
+                "name": "rmrdata",
                 "container": "demoxapp",
                 "port": 4560,
                 "rxMessages": [ 
@@ -40,7 +40,7 @@
                 "description": "rmr receive data port for HWxapp"
             },
             {
-                "name": "rmr-route",
+                "name": "rmrroute",
                 "container": "demoxapp",
                 "port": 4561,
                 "description": "rmr route port for hwxapp"
